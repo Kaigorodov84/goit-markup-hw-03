@@ -8,24 +8,22 @@ body{
     font-family: 'Roboto', sans-serif;
     background: #FFF;
     color: #434455;
-    margin: auto;
     box-sizing: border-box;
+    width: 1440px;
+    height: 3300px;
 }
 
 h1, h2, h3, p{
-    margin-top: 0;
-	margin-bottom: 0;
+    margin: 0;
 }
 
 ul, ol {
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 0;
 	padding-left: 0;
 }
 
 .container{
-    display: flex;
-    max-width: 100%;  
+    display: inline-flex;
 }
 
 .section-btn{
@@ -38,7 +36,12 @@ background: #2E2F42;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
-letter-spacing: 1.12px;}
+letter-spacing: 1.12px;
+padding-top: 188px;
+padding-right: 472px;
+padding-bottom: 292px;
+padding-left: 472px;
+}
 
 
 
@@ -87,6 +90,11 @@ letter-spacing: 0.32px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    display: inline-flex;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .btn:hover,
 .btn:focus {
@@ -188,9 +196,21 @@ text-transform: capitalize;
 
 .page-header{
     display: inline-flex;
+    width: 1440px;
+height: 72px;
+flex-shrink: 0;
+border-bottom: 1px solid  #E7E9FC;
+background: #FFF;
 }
 .page-header .container{
+    width: 1440px; 
+    height: 72px;
+    background: white; 
+    border-bottom: 1px #E7E9FC solid;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .logo-header{
@@ -215,15 +235,29 @@ margin-bottom: 25.5px;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
     display: inline-flex;
-    margin-left: 347px;
-    margin-top: 24px;
+    margin-left: 147px;
     margin-bottom: 24px;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none; 
+}
+
+.address-link{
+    list-style-type: none; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
 
 }
 
-.address-link{
-    font-style: normal;
-    display: inline-flex;
+.section-btn{
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.page-title{
 
 }
