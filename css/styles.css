@@ -111,17 +111,26 @@ text-decoration: none;
 }
 
 /* Хедер закінчення*/
-.section-btn{
+.hero-image{
 background: #2E2F42;
+width: 1440px;
+height: 600px;
+flex-shrink: 0;
+display: inline-flex;
 }
 
 .page-title{
     color: #FFF;
     text-align: center;
-font-size: 56px;
-font-weight: 700;
-line-height: 1.07;
-letter-spacing: 1.12px;}
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+    width: 496px;
+    margin-top: 188px;
+}
+
 
 .btn {
     font-family:"Roboto", sans-serif;
@@ -130,6 +139,18 @@ letter-spacing: 1.12px;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    text-align: center;
+    background-repeat: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: inline;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 48px;
+    margin-left: 164px;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    
 }
 .btn:hover,
 .btn:focus {
@@ -139,6 +160,8 @@ letter-spacing: 1.12px;}
 button{
     background: #4D5AE5;
     cursor: pointer;
+    text-align: center;
+ 
 }
 
 
